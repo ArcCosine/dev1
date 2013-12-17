@@ -1,0 +1,27 @@
+{
+  "name": "dev1",
+  "version": "0.0.0",
+  "description": "express sample",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArcCosine/dev1.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Arc Cosine",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/ArcCosine/dev1/issues"
+  },
+  "homepage": "https://github.com/ArcCosine/dev1",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
+  }
+}
