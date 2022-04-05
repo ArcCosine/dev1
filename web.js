@@ -1,13 +1,13 @@
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
+const express = require("express");
+const logfmt = require("logfmt");
+const app = express();
 
 app.use(logfmt.requestLogger());
 app.get('/', function(req,res){
   res.send("Hello!");
 });
 
-var port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 app.listen(port,function(){
   console.log("Listening on " + port);
 });
