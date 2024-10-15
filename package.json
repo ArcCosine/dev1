@@ -23,7 +23,7 @@
   "homepage": "https://github.com/ArcCosine/dev1",
   "dependencies": {
     "logfmt": "~1.3.2",
-    "express": "~4.19.2"
+    "express": "~4.20.0"
   },
   "engine": {
       "node" : "0.10.x"
